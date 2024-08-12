@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Playwrite+CL:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-image: url(../img/wallpaper.jpeg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Style général du conteneur */
+#container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style des images */
+#licorneImage, #lapinImage {
+    display: none; /* Caché par défaut */
+    width: 20%; /* Taille des images */
+    margin-bottom: 20px; /* Espacement en bas des images */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Style des images avec une bordure lorsque mises en surbrillance */
+#licorneImage.highlight {
+    border: 5px solid #f11fdf;
+}
+
+#lapinImage.highlight {
+    border: 5px solid #334df1;
+}
+
+/* Style de la boîte de dialogue */
+#dialogueBox {
+    background-color: #fff; /* Fond blanc */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px;
+    text-align: left;
+    display: none; /* Caché par défaut */
+    margin-top: 20px;
+    font-family: "Playwrite CL", cursive;
+    max-width: 80%; /* Largeur maximum */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+/* Style des dialogues */
+.licorne {
+    color: #f11fdf; /* Texte rose */
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.lapin {
+    color: #334df1; /* Texte bleu */
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Style des boutons */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ffffff;
+}
+@media screen and (max-width:768px){
+    .body {
+        background-color: #010229;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+    #licorneImage, #lapinImage {
+        display: none; /* Caché par défaut */
+        width: 50%; /* Taille des images */
+        margin-bottom: 20px; /* Espacement en bas des images */
+        border-radius: 10px; /* Coins arrondis */
+        align-self: center;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #container{
+        min-height: 800px;
+    }
+
+    button{
+        position: fixed;
+        bottom: 20px;
+    }
+
+}
