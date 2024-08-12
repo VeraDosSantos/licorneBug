@@ -1,0 +1,51 @@
+Étapes pour Créer le Dialogue Entre la Licorne Codeuse et le Lapin Bug
+Étape 1 : Préparation du Projet
+
+Créer les fichiers nécessaires :
+Un fichier HTML (index.html)
+Un dossier dans assets avec un dossier css et un js
+Un fichier CSS (style.css)
+Un fichier JavaScript (script.js)
+
+Étape 2 : Création du Fichier HTML
+
+Créez une structure de base :
+
+Incluez les balises <html>, <head>, <body>.
+
+Ajoutez les éléments suivants dans le <body> :
+Un en-tête <h1> avec le titre du projet.
+Deux images pour la Licorne Codeuse et le Lapin Bug.
+Un paragraphe <p> pour afficher un message de bienvenue.
+Un bouton pour commencer le dialogue.
+Une zone <div> pour afficher le dialogue.
+Un bouton pour passer à la ligne suivante du dialogue.
+Un bouton pour recommencer le dialogue.
+
+Étape 3 : Création du Fichier CSS
+
+Ajoutez du style de base :
+Définissez l'image de fond de la page.
+Stylez le texte du titre et du paragraphe.
+Assurez-vous que les images sont affichées correctement et ont une taille appropriée.
+Stylez la boîte de dialogue avec un fond blanc, des coins arrondis, et un texte coloré selon le personnage qui parle.
+Ajoutez des bordures colorées autour des images lorsque le personnage correspondant parle.
+
+Étape 4 : Création du Fichier JavaScript
+
+Déclarez un tableau avec les dialogues :
+Créez un tableau d'objets où chaque objet représente une ligne de dialogue avec le personnage et le texte.
+
+Initialisez les variables :
+Créez une variable pour suivre la ligne de dialogue actuelle.
+Ajoutez un écouteur d'événements au bouton "Commencer" :
+Cachez le texte de bienvenue et le bouton "Commencer".
+Affichez les images et la boîte de dialogue.
+Démarrez l'affichage des dialogues.
+
+Ajoutez un écouteur d'événements au bouton "Suivant" :
+Affichez la prochaine ligne de dialogue en mettant à jour le texte et en appliquant les styles appropriés aux images et au texte.
+
+Ajoutez un écouteur d'événements au bouton "Recommencer" :
+Réinitialisez le dialogue et les images.
+Affichez à nouveau le texte de bienvenue et le bouton "Commencer".
